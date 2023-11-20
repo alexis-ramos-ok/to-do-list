@@ -1,6 +1,6 @@
 .lista{
     
-    height: 97rem; /* al agregar el clock y date se puede modificar, solo es para referencia*/
+    height: 70rem; /* al agregar el clock y date se puede modificar, solo es para referencia*/
     align-items: center;
     border: none;
     margin-top: 2rem;
