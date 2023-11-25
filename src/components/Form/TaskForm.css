@@ -1,0 +1,38 @@
+.form__input {
+    border: none;
+    font-weight: 300;
+    height: 5.6rem;
+}
+.form__input--text {
+    background-color: var(--color-bg-app);
+    text-align: center;
+    font-size: 1.8rem;
+    width: 100%;
+}
+.form__input--text:focus {
+    outline: none;
+}
+.form__input--button {
+    background-color: var(--color-primary);
+    width: 100%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.form__input--button:hover {
+    color: var(--color-bg-app);
+    background-color: var(--color-primary-oscuro);
+}
+
+@media (min-width: 360px) {
+    .form {
+        display: flex;
+    }
+    .form__input--text {
+        width: 80%;
+    }
+    .form__input--button {
+        width: 20%;
+    }
+}
