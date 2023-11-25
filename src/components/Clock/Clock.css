@@ -1,0 +1,22 @@
+.clock{
+    margin-top: 6rem;
+    width: 100%; 
+    height: 20rem; 
+    display: block;
+    background-color: var(--color-bg-app);
+    font-size: 8rem;
+    font-family: Century Gothic;
+    color: #534d46;
+    text-align: center;
+    align-items: center;
+}
+
+
+@media (min-width: 360px) {
+    .clock{
+        
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+}
