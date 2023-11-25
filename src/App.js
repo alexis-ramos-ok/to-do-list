@@ -22,12 +22,7 @@ function App() {
 
     <div className="App">
 
-      <TaskForm onAdd={handleAddTask} />
-
-      <ul>
-        {/*Código que mostrará la lista de tareas */}
-        {console.log(tasks)}
-      </ul>
+      < TaskForm onAdd={handleAddTask} />
 
     </div>
 
