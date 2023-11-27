@@ -19,7 +19,16 @@ function TaskForm ({onAdd}) {
     
     return (
             <form className='form' onSubmit={sendItems}>
-                <input className='form__input form__input--text' type="text" placeholder='type item' value={item} onChange={itemUpdated}/>
+                {/* Aquí Dani mira como he acomodado el input para mayor claridad, podés hacer lo mismo
+                con el de abajo si te sirve */}
+                <input 
+                className='form__input form__input--text' 
+                type="text" 
+                placeholder='type item' 
+                value={item} 
+                onChange={itemUpdated}
+                />
+
                 <input className='form__input form__input--button' type="submit" value='add' />
             
             </form>
