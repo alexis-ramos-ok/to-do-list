@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import TaskForm from './components/Form/TaskForm';
-import List from './components/List/List';
+import TaskList from './components/TaskList/TaskList';
 import Clock from './components/Clock/Clock';
 import DateDisplay from './components/DateDisplay/DateDisplay';
 
@@ -38,9 +38,8 @@ function App() {
     <div className="App">
       <Clock />
       <DateDisplay />
-
       {/* Franco, Aquí en TaskList (recuerda cambiarle el nombre) debes pasarle como props: el array tasks que contiene los objetos con las tareas, y las funciones que definí debajo*/}
-      <List />
+      <TaskList tareas={tasks} onComplete={handleCompleteTask} onDelete={handleDeleteTask} />
       < TaskForm onAdd={handleAddTask} />
     </div>
 
