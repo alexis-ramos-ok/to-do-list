@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Clock.css';
 
-function Clock(){
-    const moment = new Date();
-    var hora = moment.getHours();
-    var minuto = moment.getMinutes();
-    var horaImprimible = hora + ":" + minuto;
+function Clock() {
+  const [time, setTime] = useState(new Date());
 
-    return(
-        <div className="clock">
-            {horaImprimible}
-        </div>
-    );
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(new Date());
+    }, 60000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="clock">
+      {time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+    </div>
+  );
 }
 
 export default Clock;

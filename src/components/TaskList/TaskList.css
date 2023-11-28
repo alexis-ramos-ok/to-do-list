@@ -1,0 +1,29 @@
+.lista{
+    
+    height: 50rem;
+    align-items: center;
+    border: none;
+    margin-top: 2rem;
+    background-color: var(--color-bg-app);
+}
+
+.lista--item{    
+    width: 100%; 
+    height: 20%; 
+    display: block;
+    margin-top: 5px; 
+    border: 3rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+@media (min-width: 360px) {
+    .lista {
+        display: block;
+        align-items: center;
+    }
+    .lista--item{
+        width: 100%; 
+        height: 20%; 
+    }
+}
