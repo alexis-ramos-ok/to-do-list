@@ -3,4 +3,5 @@
     font-size: 1.6rem;
     text-align: center;
     font-weight: 300;
+    margin-bottom: 6rem; /*Nuevo margen inferior que concuerda con el margen superior de Franco en el Clock*/
 }

@@ -29,6 +29,7 @@ function TaskForm ({onAdd}) {
                 placeholder='type item' 
                 value={item} 
                 onChange={itemUpdated}
+                maxLength={100}               /*--- Límite de caracteres --- */
                 />
 
                 <input 
