@@ -4,23 +4,25 @@ import './TaskForm.css';
 function TaskForm ({onAdd}) {
     const[item, setItem] = useState('');
 
+    // Función que se ejecuta al actualizar el valor del input
     function itemUpdated(e) {
         setItem(e.target.value);
     }
 
+    // Función que se ejecuta al enviar el formulario
     function sendItems(e) {
         e.preventDefault();
 
+        // Verificar que el ítem no esté vacío antes de agregarlo
         if (item.trim() !== '') {
-            onAdd(item);
-            setItem('');
+            onAdd(item); // Llamar a la función proporcionada por el padre para agregar el ítem
+            setItem(''); // Limpiar el valor del input después de agregar el ítem
         }
     }
     
     return (
             <form className='form' onSubmit={sendItems}>
-                {/* Aquí Dani mira como he acomodado el input para mayor claridad, podés hacer lo mismo
-                con el de abajo si te sirve */}
+
                 <input 
                 className='form__input form__input--text' 
                 type="text" 
@@ -29,7 +31,10 @@ function TaskForm ({onAdd}) {
                 onChange={itemUpdated}
                 />
 
-                <input className='form__input form__input--button' type="submit" value='add' />
+                <input 
+                className='form__input form__input--button' 
+                type="submit" 
+                value='add' />
             
             </form>
     ); 
