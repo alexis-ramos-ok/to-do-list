@@ -4,16 +4,17 @@ import TaskItem from '../TaskItem/TaskItem';
 
 
 function TaskList({ tareas, onComplete, onDelete }) {
-    return (
-      <div className="lista">
-        {tareas.map((task) => (
-          <TaskItem
-            task={task}
-            onComplete={() => onComplete(task.id)}
-            onDelete={() => onDelete(task.id)}
-          />
-        ))}
-      </div>
-    );
-  }
+  return (
+    <div className="lista">
+      {tareas.map((task) => (
+        <TaskItem
+          key={task.id}
+          task={task}
+          onComplete={() => onComplete(task.id)}
+          onDelete={() => onDelete(task.id)}
+        />
+      ))}
+    </div>
+  );
+}
 export default TaskList;
