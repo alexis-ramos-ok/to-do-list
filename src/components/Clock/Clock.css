@@ -5,10 +5,11 @@
     display: block;
     background-color: var(--color-bg-app);
     font-size: 5.5rem;         /*--- Agrego un tamaño de fuente menor según el diseño ---*/
-    color: #534d46;
+    color: var(--color-bg-header);
     text-align: center;
     align-items: center;
     font-weight: 200;       /*--- Agrego un peso menor a la fuente que concuerda con el diseño ---*/
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 

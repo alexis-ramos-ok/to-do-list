@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import TaskForm from './components/Form/TaskForm';
 import TaskList from './components/TaskList/TaskList';
@@ -6,8 +6,20 @@ import Clock from './components/Clock/Clock';
 import DateDisplay from './components/DateDisplay/DateDisplay';
 
 function App() {
-  
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState(() => {
+    // Obtén las tareas del localStorage al iniciar la aplicación
+    const savedTasks = localStorage.getItem('tasks');
+    if (savedTasks) {
+      return JSON.parse(savedTasks);
+    } else {
+      return [];
+    }
+  });
+
+  useEffect(() => {
+    // Guarda las tareas en el localStorage cada vez que cambien
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+  }, [tasks]);
 
   // Dani: Función que crea un objeto nueva tarea, el mismo tiene un identificador único y un nombre
   const handleAddTask = (taskName) => {
@@ -38,7 +50,6 @@ function App() {
     <div className="App">
       <Clock />
       <DateDisplay />
-      {/* Franco, Aquí en TaskList (recuerda cambiarle el nombre) debes pasarle como props: el array tasks que contiene los objetos con las tareas, y las funciones que definí debajo*/}
       <TaskList tareas={tasks} onComplete={handleCompleteTask} onDelete={handleDeleteTask} />
       < TaskForm onAdd={handleAddTask} />
     </div>

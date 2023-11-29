@@ -1,9 +1,9 @@
 .lista{
-    
     align-items: center;
     border: none;
     margin-top: 2rem;
     background-color: var(--color-bg-app);
+    transition: background-color 0.5s ease;
 }
 
 .lista--item{    
