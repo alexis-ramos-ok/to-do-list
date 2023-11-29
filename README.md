@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Proyecto Lista de tareas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Demo](./public/Imagenes/imagen-toDoList.png)
 
-## Available Scripts
+Este proyecto, denominado TO-DO-LIST, fue desarrollado como parte del curso Desarrollador ReactJS impartido por la UTN FRBA a través de Argentina Programa 4.0, y fue asignado por nuestro tutor como parte de los ejercicios prácticos del curso. 
 
-In the project directory, you can run:
+## Contenido
 
-### `npm start`
+- [Demostración](#demostración)
+- [Descripción](#descripción)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Licencia](#licencia)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demostración
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[AX SHOP DEMO](https://todolist-adf.netlify.app/)
 
-### `npm test`
+## Descripción
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El proyecto final se centra en la creación de una aplicación para gestionar una lista de tareas. La aplicación utiliza componentes funcionales de React, el hook useState para el manejo del estado, useEffect para realizar efectos secundarios y eventos para interactuar con el usuario.La persistencia de datos se logra mediante localStorage, permitiendo que las tareas persistan incluso después de recargar la página.
 
-### `npm run build`
+Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminarlas, proporcionando así una experiencia de gestión de tareas intuitiva.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)<br>
+[![FontAwesome](https://img.shields.io/badge/FontAwesome-6.4.2-orange)](https://fontawesome.com/)<br>
+[![React Input Mask](https://img.shields.io/badge/React_Input_Mask-2.0.4-success)](https://www.npmjs.com/package/react-input-mask)<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Capturas de Pantalla
 
-### `npm run eject`
+**Pantallas Grandes**
+![Demo](./public/Imagenes/pantalla-grande.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Dark Mode en Pantallas Grandes**
+![Demo](./public/Imagenes/darkMode.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Pantallas Pequeñas**
+![Demo](./public/Imagenes/pantalla-pequeña.jpeg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Dark Mode en Pantallas Pequeñas**
+![Demo](./public/Imagenes/darkMode-pequeña.jpeg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Instalación
 
-## Learn More
+1. Clona el repositorio: `git clone https://github.com/alexis-ramos-ok/to-do-list.git`
+2. Navega al directorio del proyecto: `cd TO-DO-LIST`
+3. Instala las dependencias: `npm install`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Uso
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Inicia la aplicación: `npm start`
 
-### Code Splitting
+La aplicación estará disponible en [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licencia
 
-### Analyzing the Bundle Size
+[![Creative Commons License](https://img.shields.io/badge/License-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Agradecemos a todos los desarrolladores que se sumergirán en este proyecto y explorarán el código. Este proyecto no solo representa el aprendizaje y la dedicación de quienes lo crearon, sino también la enseñanza invaluable del curso que proporcionó las bases para su desarrollo. ¡Gracias por formar parte de esta comunidad de aprendizaje y desarrollo!
