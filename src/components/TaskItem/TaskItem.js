@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import './TaskItem.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
@@ -29,7 +28,7 @@ const TaskItem = ({ task, onComplete, onDelete }) => {
         <motion.div 
             className={`task-item ${isCompleted ? 'task-item--completed' : ''}`} 
             onClick={handleComplete}
-            initial={{ scale: 0 }}
+            initial={{ scale: task.isFromLocalStorage ? 1 : 0 }} // Si venís del local storage no te animás
             animate={{ scale: isDeleting ? 0 : 1 }}
             exit={{ scale: 0 }}
             transition={{ duration: 0.5 }}

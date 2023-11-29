@@ -1,0 +1,26 @@
+html {
+    background-color: #3f424e;
+}
+
+:root {
+    --color-bg-app: #2f313a;
+    --color-bg-header: #262831;
+    
+    --color-primary: #00f9b6;
+    --color-primary-oscuro: #07bf8b;
+    --color-secondary: #7A7979;
+    --color-borders: #ccc;
+    --color-to-do: red;
+}
+
+.clock{
+    color: var(--color-primary);
+}
+
+.form {
+    border-color: transparent;
+}
+
+.form__input--button {
+    border-left-color: transparent;
+}

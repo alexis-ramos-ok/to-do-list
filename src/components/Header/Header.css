@@ -12,6 +12,7 @@
     0 13.8px 17.9px rgba(0, 0, 0, 0.035),
     0 25.9px 33.4px rgba(0, 0, 0, 0.028),
     0 62px 80px rgba(0, 0, 0, 0.02);
+    position: relative;
 }
 
 .header__title {
@@ -21,3 +22,29 @@
     text-transform: uppercase;
     font-size: 1.6rem;
 }
+
+.header__button {
+    position: absolute;
+    right: 18rem;
+  }
+
+  @media (max-width: 900px) {
+    .header__button {
+        right: 15%;
+      }
+  }
+
+
+  @media (max-width: 600px) {
+    .header__button {
+        right: 10%;
+      }
+  }
+
+
+
+  @media (max-width: 400px) {
+    .header__button {
+        right: 1%;
+      }
+  }
