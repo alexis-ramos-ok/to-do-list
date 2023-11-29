@@ -30,6 +30,7 @@
     border-radius: 50%;
     margin-right: 10px;
     background-color: var(--color-to-do);
+    transition: all 200ms ease-in-out;
 }
 
 .task-item--completed .task-item__status-indicator {
@@ -45,6 +46,8 @@
     color: var(--color-secondary);
     overflow-wrap: break-word;
     max-width: 80%;
+    text-align: center;
+    transition: all 200ms ease-in-out;
 }
 
 .task-item__delete-button {
