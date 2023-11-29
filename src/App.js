@@ -7,17 +7,17 @@ import DateDisplay from './components/DateDisplay/DateDisplay';
 
 function App() {
   const [tasks, setTasks] = useState(() => {
-    // Obtén las tareas del localStorage al iniciar la aplicación
+    // Obtengo las tareas del localStorage al iniciar la aplicación
     const savedTasks = localStorage.getItem('tasks');
     if (savedTasks) {
-      return JSON.parse(savedTasks);
+      return JSON.parse(savedTasks).map(task => ({ ...task, isFromLocalStorage: true })); // Vigilo si entraron en local storage
     } else {
       return [];
     }
   });
 
   useEffect(() => {
-    // Guarda las tareas en el localStorage cada vez que cambien
+    // Guardo las tareas en el localStorage cada vez que cambian
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
 
@@ -26,7 +26,8 @@ function App() {
     const newTask = {
       id: Date.now(),
       name: taskName,
-      completed: false // Alex: Agrego este booleano para indicar si la tarea fue completada o no
+      completed: false, // Alex: Agrego este booleano para indicar si la tarea fue completada o no
+      isFromLocalStorage: false // Decime si pisaste el local storage
     };
 
     // Actualizando el estado para incluir la nueva tarea
