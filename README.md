@@ -30,6 +30,9 @@ Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminar
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)<br>
 [![FontAwesome](https://img.shields.io/badge/FontAwesome-6.4.2-orange)](https://fontawesome.com/)<br>
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-10.16.5-green)](https://www.framer.com/motion/)<br>
+[![React Icons](https://img.shields.io/badge/React%20Icons-4.12.0-lightgrey)](https://react-icons.github.io/react-icons/)<br>
+[![React Switch](https://img.shields.io/badge/React%20Switch-7.0.0-yellow)](https://www.npmjs.com/package/react-switch)<br>
 
 ## Capturas de Pantalla
 
