@@ -45,11 +45,11 @@ Título: Pantallas Grandes
 Título: Dark Mode en Pantallas Grandes
 
 ### Pantallas Pequeñas
-<img src="./public/Imagenes/pantalla-pequeña.jpeg" alt="Demo" width="300"><br>
+<img src="./public/Imagenes/pantalla-pequeña.jpeg" alt="Demo" width="200"><br>
 Título: Pantallas Pequeñas
 
 ### Dark Mode en Pantallas Pequeñas
-<img src="./public/Imagenes/darkMode-pequeña.jpeg" alt="Demo" width="300"><br>
+<img src="./public/Imagenes/darkMode-pequeña.jpeg" alt="Demo" width="200"><br>
 Título: Dark Mode en Pantallas Pequeñas
 
 ## Instalación
