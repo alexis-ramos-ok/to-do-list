@@ -2,7 +2,7 @@
 
 ![Demo](./public/Imagenes/imagen-toDoList.png)
 
-Este proyecto, denominado TO-DO-LIST, fue desarrollado como parte del curso Desarrollador ReactJS impartido por la UTN FRBA a través de Argentina Programa 4.0, y fue asignado por nuestro tutor como parte de los ejercicios prácticos del curso. 
+Este proyecto, denominado TO-DO-LIST, fue desarrollado como parte del curso Desarrollador ReactJS impartido por la UTN FRBA a través de Argentina Programa 4.0, y fue asignado por nuestro tutor como trabajo integrador final del curso. 
 
 ## Contenido
 
@@ -16,19 +16,18 @@ Este proyecto, denominado TO-DO-LIST, fue desarrollado como parte del curso Desa
 
 ## Demostración
 
-[AX SHOP DEMO](https://todolist-adf.netlify.app/)
+[TODOLIST DEMO](https://todolist-adf.netlify.app/)
 
 ## Descripción
 
-El proyecto final se centra en la creación de una aplicación para gestionar una lista de tareas. La aplicación utiliza componentes funcionales de React, el hook useState para el manejo del estado, useEffect para realizar efectos secundarios y eventos para interactuar con el usuario.La persistencia de datos se logra mediante localStorage, permitiendo que las tareas persistan incluso después de recargar la página.
+El proyecto final se centra en la creación de una aplicación para gestionar una lista de tareas en base a una imagen de diseño la cual se debe replicar con exactitud en principio pudiendo agregar más funcionalidades después. La aplicación utiliza componentes de React, el hook useState para el manejo del estado, useEffect para realizar efectos secundarios y eventos para interactuar con el usuario.La persistencia de datos se logra mediante localStorage, permitiendo que las tareas persistan incluso después de recargar la página.
 
-Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminarlas, proporcionando así una experiencia de gestión de tareas intuitiva.
+Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminarlas, proporcionando así una experiencia de gestión de tareas intuitiva. Agregamos también un switch que permite cambiar entre modo oscuro y modo claro con una transición suave entre ambos modos.
 
 ## Tecnologías Utilizadas
 
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)<br>
 [![FontAwesome](https://img.shields.io/badge/FontAwesome-6.4.2-orange)](https://fontawesome.com/)<br>
-[![React Input Mask](https://img.shields.io/badge/React_Input_Mask-2.0.4-success)](https://www.npmjs.com/package/react-input-mask)<br>
 
 ## Capturas de Pantalla
 
