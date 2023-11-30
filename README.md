@@ -37,16 +37,28 @@ Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminar
 ## Capturas de Pantalla
 
 **Pantallas Grandes**
-<img src="./public/Imagenes/pantalla-grande.png" alt="Demo" width="400">
+<br>
+<p align="center">
+  <img src="./public/Imagenes/pantalla-grande.png" alt="Demo" width="500">
+</p>
 
 **Dark Mode en Pantallas Grandes**
-<img src="./public/Imagenes/darkMode.png" alt="Demo" width="400">
+<br>
+<p align="center">
+  <img src="./public/Imagenes/darkMode.png" alt="Demo" width="500">
+</p>
 
 **Pantallas Pequeñas**
-<img src="./public/Imagenes/pantalla-pequeña.jpeg" alt="Demo" width="400">
+<br>
+<p align="center">
+  <img src="./public/Imagenes/pantalla-pequeña.jpeg" alt="Demo" width="300">
+</p>
 
 **Dark Mode en Pantallas Pequeñas**
-<img src="./public/Imagenes/darkMode-pequeña.jpeg" alt="Demo" width="400">
+<br>
+<p align="center">
+  <img src="./public/Imagenes/darkMode-pequeña.jpeg" alt="Demo" width="300">
+</p>
 
 ## Instalación
 
