@@ -12,6 +12,8 @@ Este proyecto, denominado TO-DO-LIST, fue desarrollado como parte del curso Desa
 - [Capturas de Pantalla](#capturas-de-pantalla)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Autores](#autores)
+- [Contacto](#contacto)
 - [Licencia](#licencia)
 
 ## Demostración
@@ -54,6 +56,20 @@ Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminar
 Inicia la aplicación: `npm start`
 
 La aplicación estará disponible en [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+## Autores
+
+- Alexis Ramos: Project Manager y Desarrollador de funcionalidades que hacen posible la recepción y renderización de la información. También de funcionalidades añadidas.
+- María Daniela Rivas Dugarte: Desarrolladora de los componentes y funcionalidades asociadas a la transmisión de la información.
+- Franco Hernán Petraglia: Desarrollador de la arquitectura, estados y componentes receptores.
+
+## Contacto
+
+Si tienes alguna pregunta o consulta relacionada con el proyecto, no dudes en contactarte con nosotros vía email:
+
+- Alexis Ramos: alexleaderhere@gmail.com
+- María Daniela Rivas Dugarte:
+- Franco Hernán Petraglia: 
 
 ## Licencia
 
