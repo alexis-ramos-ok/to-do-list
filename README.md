@@ -76,7 +76,7 @@ Si tienes alguna pregunta o consulta relacionada con el proyecto, no dudes en co
 
 - Alexis Ramos: alexleaderhere@gmail.com
 - María Daniela Rivas Dugarte:
-- Franco Hernán Petraglia: 
+- Franco Hernán Petraglia: frannpetraglia@gmail.com
 
 ## Licencia
 
