@@ -2,7 +2,7 @@
 
 ![Demo](./public/Imagenes/imagen-toDoList.png)
 
-Este proyecto, denominado TO-DO-LIST, fue desarrollado como parte del curso Desarrollador ReactJS impartido por la UTN FRBA a través de Argentina Programa 4.0, y fue asignado por nuestro tutor como trabajo integrador final del curso. 
+Este proyecto, denominado TO-DO-LIST, fue desarrollado como parte del curso Desarrollador ReactJS impartido por la UTN FRBA a través de Argentina Programa 4.0, y fue asignado por nuestro docente José Luis Condori como trabajo integrador final del curso. 
 
 ## Contenido
 
@@ -37,16 +37,16 @@ Los usuarios pueden agregar nuevas tareas, marcarlas como completadas y eliminar
 ## Capturas de Pantalla
 
 **Pantallas Grandes**
-![Demo](./public/Imagenes/pantalla-grande.png)
+<img src="./public/Imagenes/pantalla-grande.png" alt="Demo" width="400">
 
 **Dark Mode en Pantallas Grandes**
-![Demo](./public/Imagenes/darkMode.png)
+<img src="./public/Imagenes/darkMode.png" alt="Demo" width="400">
 
 **Pantallas Pequeñas**
-![Demo](./public/Imagenes/pantalla-pequeña.jpeg)
+<img src="./public/Imagenes/pantalla-pequeña.jpeg" alt="Demo" width="400">
 
 **Dark Mode en Pantallas Pequeñas**
-![Demo](./public/Imagenes/darkMode-pequeña.jpeg)
+<img src="./public/Imagenes/darkMode-pequeña.jpeg" alt="Demo" width="400">
 
 ## Instalación
 
