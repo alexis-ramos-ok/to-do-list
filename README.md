@@ -75,7 +75,7 @@ La aplicación estará disponible en [http://localhost:3000](http://localhost:30
 Si tienes alguna pregunta o consulta relacionada con el proyecto, no dudes en contactarte con nosotros vía email:
 
 - Alexis Ramos: alexleaderhere@gmail.com
-- María Daniela Rivas Dugarte:
+- María Daniela Rivas Dugarte: danielamackensy2@gmail.com
 - Franco Hernán Petraglia: frannpetraglia@gmail.com
 
 ## Licencia
